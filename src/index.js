@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {hashHistory, IndexRoute, Route, Router} from 'react-router';
+import {BrowserRouter as Router, IndexRoute, Route, Router} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import 'fixed-data-table/dist/fixed-data-table.css';
 import './index.css';
 
 import App from './modules/App';
@@ -18,7 +19,7 @@ import Stores from './modules/Stores';
 import Targets from './modules/Targets';
 
 ReactDOM.render((
-  <Router history={hashHistory}>
+  <Router>
     <Route path="/" component={App}>
       
       <IndexRoute component={Dashboard} />

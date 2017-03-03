@@ -3,6 +3,9 @@ import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootst
 import {Typeahead} from 'react-bootstrap-typeahead';
 
 class NewStore extends Component {
+  //constructor(props) {
+    //super(props);
+  //}
   submitForm(event) {
     event.preventDefault();
     console.log("New Store");

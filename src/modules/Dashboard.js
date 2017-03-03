@@ -6,10 +6,10 @@ import CompletedTasks from './CompletedTasks';
 class Dashboard extends Component {
   render() {
     return (
-      <div>
-        <h1>Dashboard</h1>
-        <RunningTasks/>
-        <CompletedTasks/>
+      <div className="content">
+        <h1 className="heading">Dashboard</h1>
+        <RunningTasks className="running-tasks"/>
+        <CompletedTasks className="completed-tasks" />
       </div>
     )
   }

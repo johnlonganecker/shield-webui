@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -17,6 +23,48 @@
 .App-intro {
   font-size: large;
 }
+
+.page {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.header {
+  
+}
+.heading {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  width: 100%;
+  background: #000;
+}
+
+.navigation a {
+  margin: 0 0 0 30px;
+}
+
+.notification {
+  background-color: #f00;
+}
+
+/*.running-tasks {*/
+  /*width: 48%;*/
+/*}*/
+
+/*.completed-tasks {*/
+  /*width: 48%;*/
+/*}*/
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

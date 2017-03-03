@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ButtonToolbar, Button } from 'react-bootstrap';
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 class Stores extends Component{
   render() {
